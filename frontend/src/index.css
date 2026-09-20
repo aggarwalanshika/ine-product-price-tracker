@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: radial-gradient(circle at 50% 0%, #3a0d42 0%, #1c0620 50%, #0d020e 100%);
+    background-attachment: fixed;
+  }
+}
+
+/* Luxury Glassmorphism Utilities */
+.glass-card {
+  background: rgba(36, 9, 41, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.18);
+  box-shadow: 0 12px 36px 0 rgba(10, 2, 12, 0.6);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-4px);
+  background: rgba(48, 12, 54, 0.65);
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 16px 40px 0 rgba(212, 175, 55, 0.15), 0 20px 50px 0 rgba(0, 0, 0, 0.8);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fff7db 0%, #f3e5ab 35%, #d4af37 70%, #aa820a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #e6c865 0%, #d4af37 50%, #b58d1d 100%);
+  color: #160418;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #f4e39d 0%, #e6c865 50%, #c49a24 100%);
+  box-shadow: 0 6px 25px rgba(212, 175, 55, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-burgundy-outline {
+  background: rgba(56, 14, 63, 0.4);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  color: #f3e5ab;
+  transition: all 0.2s ease;
+}
+
+.btn-burgundy-outline:hover {
+  background: rgba(82, 16, 92, 0.6);
+  border-color: rgba(212, 175, 55, 0.7);
+  color: #ffffff;
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #160418;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d0c46;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #52105c;
+}

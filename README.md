@@ -1,5 +1,8 @@
 # INE Product Price Tracker (Web Scraping & Analytics)
 
+- **🌐 Live Hosted Site**: [https://aggarwalanshika.github.io/ine-product-price-tracker/](https://aggarwalanshika.github.io/ine-product-price-tracker/)
+- **🐙 GitHub Repository**: [https://github.com/aggarwalanshika/ine-product-price-tracker](https://github.com/aggarwalanshika/ine-product-price-tracker)
+
 A full-stack luxury web application built for the **INE Software Engineer Intern Assignment**. The application enables users to search INE's hosted mock storefront (`https://demo.inelabteamdev.com`), track products, scrape prices and stock levels on a fixed 2-hour schedule, view interactive price history charts and honest scrape attempt logs, and trigger observable headed scraper runs with video recording.
 
 ---
